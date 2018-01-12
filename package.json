@@ -1,0 +1,23 @@
+{
+  "name": "chart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowlong/chart.git"
+  },
+  "keywords": [],
+  "author": "snowlong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snowlong/chart/issues"
+  },
+  "homepage": "https://github.com/snowlong/chart#readme",
+  "dependencies": {
+    "chartjs": "^0.3.24"
+  }
+}
