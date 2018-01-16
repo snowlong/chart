@@ -9,7 +9,7 @@
     "build:copy": "cpx \"./src/assets/**\" \"./extension/assets/\" && cpx \"./src/background/background.html\" \"./extension/background/\" && cpx \"./src/manifest.json\" \"./extension/\"",
     "build:webpack": "webpack -p",
     "build:webpack:dev": "webpack",
-    "clean": "rimraf extension"    
+    "clean": "rimraf extension"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/snowlong/chart#readme",
   "dependencies": {
+    "chart.js": "^2.7.1",
     "chartjs": "^0.3.24"
   },
   "devDependencies": {
