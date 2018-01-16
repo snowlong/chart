@@ -1,2 +1,2 @@
 #!/bin/bash
-php php/index.php > app/index.html
+php php/build.php > app/build.html
