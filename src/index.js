@@ -39,7 +39,8 @@ var myChart1 = new Chart(document.getElementById("chart-1"), {
         min: 0,
         max: 5
       }
-    }
+    },
+    responsive: true,
   }
 });
 
